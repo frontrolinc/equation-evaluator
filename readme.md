@@ -18,7 +18,7 @@ You can import the EquationEvaluator class in your TypeScript code as follows:
 
 #### typescript
 
-    import { EquationEvaluator } from 'equation-evaluator';
+    import EquationEvaluator from "equation-evaluator/lib/EquationEvaluator";
     
     const equation = `IF :A = 'submitted' AND :B = 'Baselined' AND :C = 'Complete' THEN RETURN "Success" ELSE RETURN "Error"`;
     
