@@ -1,6 +1,6 @@
 {
   "name": "equation-evaluator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "evaluates string equations",
   "main": "index.js",
   "scripts": {
