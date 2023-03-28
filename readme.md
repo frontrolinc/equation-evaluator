@@ -12,7 +12,7 @@ To use this class in your project, you can install it from npm:
 
 ## Usage
 
-You can import the EquationEvaluator class in your TypeScript code as follows:
+You can import the EquationEvaluator class in your TypeScript/JavaScript code as follows:
 
   
 
@@ -27,10 +27,10 @@ You can import the EquationEvaluator class in your TypeScript code as follows:
     const equation = `IF :A = 'submitted' AND :B = 'Baselined' AND :C = 'Complete' THEN RETURN "Success" ELSE RETURN "Error"`;
     
     const params = {
-        'A': 'submitted',
-        'B': 'Baselined',
-        'C': 'Complete'
-    }
+      'A': 'submitted',
+      'B': 'Baselined',
+      'C': 'Complete'
+    };
     
     const evaluator = new EquationEvaluator(equation, params);
     const result = evaluator.evaluate();
