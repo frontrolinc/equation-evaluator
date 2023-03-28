@@ -1,4 +1,4 @@
-import EquationEvaluator from '../EquationEvaluator';
+import { EquationEvaluator } from '../index';
 
 test('Should return "success"', () => {
 
